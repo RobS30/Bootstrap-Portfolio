@@ -6,12 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-    <title>Hello, world!</title>
+  <title>Rob Sheppard</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+
+  <body background="assets/images/Background_Image.png">
+
+  <!--Header-->
+  <header id="masthead" class="clearfix">
+      <div class="container">
+          <a href="index.html" id="logo"> Rob Sheppard</a>
+              <nav>
+                  <a href="index.html">About</a>
+                  <a href="portfolio.html">Portfolio</a>
+                  <a href="contact.html">Contact</a>
+              </nav>
+      </header>
+
+<!--bootstrap form-->
+
+    <div class="container mainContact clearfix">
+        <h1>Contact Me</h1>
+        <hr/>
+        <form>
+            <div class="form-group">
+              <label for="formInput">Name</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+              <label for="formInput">Email</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="formInput">Message</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+            <button type="submit" class="btn btn-primary submitButton buttonOnContac">Submit</button>
+          </form>
+</div>
+
+    <!--footer-->
+    <footer>Copyright</footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
